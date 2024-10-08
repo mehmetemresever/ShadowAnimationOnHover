@@ -1,0 +1,24 @@
+/*Center the Card*/
+body {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;           
+}
+
+/* Simple Card Styling */
+.card {
+  height: 302px;
+  width: 290px;
+  border: 1px solid rgba(128, 128, 128, 0.1); /* Gray border with 10% opacity */
+  border-radius: 8px;        /* Rounded corners */
+  background-color: #fff;    /* White background for card */
+  transition: box-shadow 0.2s ease-in-out; /* Smooth shadow transition */
+}
+
+/* Hover Animation */
+.card:hover {
+ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+ /* box-shadow: offset-x offset-y blur-radius color inset; */
+  
+}
